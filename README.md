@@ -1,7 +1,7 @@
 # mask-phone-jetpack-compose
 how to use:
 
-val visualTransformationCpf: VisualTransformation = remember { MaskCpf() }
+val visualTransformationPhone: VisualTransformation = remember { MaskPhone() }
 
 TextField(
           value = state.text,
@@ -10,5 +10,5 @@ TextField(
           leadingIcon = { Icon(imageVector = leadingIconVector, contentDescription = null) },
           keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
           modifier = modifier,
-          visualTransformation = visualTransformationCpf
+          visualTransformation = visualTransformationPhone
       )
