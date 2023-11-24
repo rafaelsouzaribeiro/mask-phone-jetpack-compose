@@ -1,6 +1,7 @@
 # mask-phone-jetpack-compose
 how to use:
 
+```
 val visualTransformationPhone: VisualTransformation = remember { MaskPhone() }
 
 TextField(
@@ -12,3 +13,4 @@ TextField(
           modifier = modifier,
           visualTransformation = visualTransformationPhone
       )
+```
